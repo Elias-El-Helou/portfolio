@@ -1,0 +1,18 @@
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+  "E",   # pycodestyle errors
+  "F",   # pyflakes (unused imports, undefined variables)
+  "I",   # isort (import sorting)
+  "UP",  # pyupgrade (modernize Python syntax)
+]
+ignore = [
+  "E501",  # line too long — handled by formatter
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
