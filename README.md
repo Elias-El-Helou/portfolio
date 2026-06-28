@@ -4,7 +4,7 @@ A full-stack portfolio with an embedded AI agent that answers questions about
 my experience, projects, and skills in real time.
 
 ## Live Site
-https://eliaselhelou.dev
+[eliaselhelou.dev] https://eliaselhelou.dev
 
 ## Stack
 
